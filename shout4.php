@@ -44,7 +44,7 @@ if($_POST['refresh']) {
 
 function populate_shoutbox() {
     global $dbh;
-    $sql = "select * from beatykyivbase.shoutbox4 order by date_time desc limit 10";
+    $sql = "select * from shoutbox4 order by date_time desc limit 10";
     echo '<ul>';
     foreach ($dbh->query($sql) as $row) {
         echo '<li>';
