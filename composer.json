@@ -1,0 +1,10 @@
+{
+    "name": "alena/project",
+    "authors": [
+        {
+            "name": "Alyona Markina",
+            "email": "alyona.markina.fipi@gmail.com"
+        }
+    ],
+    "require": {}
+}
