@@ -1,0 +1,99 @@
+
+body {
+    background-color:white;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-family: 'codropsicons';
+    font-size: 100%px;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+   
+}
+
+
+li a:hover {
+  border: 2px solid black; 
+    color:#d11b1b;;
+}
+ul:hover{
+	
+    color:#ffe6ff;
+}
+#post{
+  position: absolute;
+  top:6%;
+  left:38%;
+  font-family: 'codropsicons';
+  font-size: 250%;
+}
+ #post2{
+  position: absolute;
+  top:15%;
+  left:38%;
+  font-family: 'codropsicons';
+  font-size: 120%;
+ }
+#foto1{
+  position: absolute;
+  top: 59%;
+left:24%;
+
+}
+#foto2{
+  position: absolute;
+  top: 22%;
+left: 24%;
+}
+
+.blogodel {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  
+}
+
+.blogodel:hover {cursor: pointer;}
+.blogodel .desc {display: none;}
+.blogodel:hover .desc {
+  background-color:#345;
+  display: block;
+  margin: 0;
+  color: #FFF;
+  font-size: 12px;
+  padding: 10px;
+  filter:alpha(opacity=75);
+  opacity:.75;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=75)';
+  position: absolute;
+  bottom: 10px; left: 10px; right: 10px;
+}
+
+.blogodel:hover .desc strong {
+  display: block;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+@media screen and (max-width: 40em) {
+
+  .codrops-header h1 {
+    font-size: 2.5em;
+  }
+}
