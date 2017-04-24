@@ -1,15 +1,14 @@
 <?php
 /*** mysql hostname ***/
-$hostname = 'localhost';
+$hostname = 'wftuqljwesiffol6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
 
 /*** mysql username ***/
-$username = '_ZEBRA';
+$username = 'ck7qnb1sp3elbbtk';
 
 /*** mysql password ***/
-$password = 'alyona678';
+$password = 'c9og060xxklz3qz8';
 
-$dbname = 'beatykyivbase';
-
+$dbname = 'o7jfr0rpoevbgt5k';
 try {
     $dbh = new PDO("mysql:host=$hostname;dbname=$dbname", $username, $password);
 
