@@ -19,7 +19,7 @@ if($_POST['name']) {
     /*** set all errors to execptions ***/
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
-    $sql = "INSERT INTO beatykyivbase.shoutbox (date_time, name, message)
+    $sql = "INSERT INTO shoutbox (date_time, name, message)
             VALUES (NOW(), :name, :message)";
     /*** prepare the statement ***/
     $stmt = $dbh->prepare($sql);
